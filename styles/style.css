@@ -20,6 +20,10 @@ body {
   position: relative;
 }
 
+a {
+  text-decoration: none;
+}
+
 nav {
   display: flex;
   flex-direction: row;
