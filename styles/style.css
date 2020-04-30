@@ -34,6 +34,7 @@ nav {
   right: 0;
   background-color: #FFFFFF;
   padding: 0.3rem;
+  box-shadow: 0 3px 2px -2px rgb(214, 214, 214);
 }
 
 .navbar-left-container {
