@@ -80,3 +80,52 @@ nav {
   background-color: rgb(68, 100, 122);;
 }
 
+/* Main container (Grid container) items */
+.article-1-grid-item {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.article-2-grid-item {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.article-3-grid-item {
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.article-4-grid-item {
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.main-container-bottom-links-grid-item {
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.bottom-social-media-container-grid-item {
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+/* The column lines where the main container grid items start and end */
+.article-1-grid-item,
+.article-2-grid-item,
+.article-3-grid-item,
+.article-4-grid-item,
+.main-container-bottom-links-grid-item,
+.bottom-social-media-container-grid-item {
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+
+/* Main container (Grid container) */
+/* Styles for the main container. Grid applies here: 3 columns and 6 rows(4 articles + 1 small texts container + 1 bottom social media links container) */
+main {
+  display: grid;
+  grid-template-columns: 1fr 1000px 1fr;
+  grid-template-rows: repeat(6,auto);
+}
