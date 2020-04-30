@@ -61,5 +61,12 @@ nav {
 .log-in-button {
   position: relative;
   top: 0.3rem;
+  padding: 0.5rem;
+  background-color: #567B95 ;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid #567B95;
+  border-radius: 3px 3px 3px 3px;
 }
 
