@@ -17,6 +17,7 @@ body {
   max-width:1440px; /* within them to stay within these boundaries especially when zooming in/out of a web browser */
   padding: 0;
   background-color: #FFFFFF;
+  position: relative;
 }
 
 nav {
