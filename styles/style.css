@@ -44,3 +44,9 @@ nav {
 .search-icon {
   margin: 0 20px;
 }
+
+/* Styles for the SPACE & COSMOS text/link in the left-most part of navbar*/
+.space-and-cosmos-link {
+  position: relative;
+  top: -0.35rem;
+}
