@@ -129,3 +129,8 @@ main {
   grid-template-columns: 1fr 1000px 1fr;
   grid-template-rows: repeat(6,auto);
 }
+
+/* Center all paragraphs within the main container */
+.paragraphs-container {
+  margin: 0 227px;
+}
