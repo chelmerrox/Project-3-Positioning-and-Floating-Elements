@@ -1,4 +1,4 @@
-# Project Name
+# Project 3 - Positioning and Floating Elements
 
 This is an assigned project where I have to replicate/clone the <a href="https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0">New York Times web page.</a>
 
