@@ -9,7 +9,8 @@
 
 html,
 body {
-  margin: 0;
+  margin: 0 auto; /* margin and max-width properties (and their values) holds everything in place*/
+  max-width:1440px;/* i.e it will make html elements within them to stay within these boundaries */
   padding: 0;
   background-color: white;
 }
