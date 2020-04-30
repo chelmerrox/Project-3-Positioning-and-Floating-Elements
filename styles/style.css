@@ -57,6 +57,10 @@ nav {
   text-decoration: #000000 underline;
 }
 
+.navbar-right-container {
+  margin-right: 10px;
+}
+
 .subscribe-now-button,
 .log-in-button {
   position: relative;
