@@ -34,3 +34,7 @@ nav {
   right: 0;
   background-color: #FFFFFF;
 }
+
+.navbar-left-container {
+  margin-left: 25px;
+}
