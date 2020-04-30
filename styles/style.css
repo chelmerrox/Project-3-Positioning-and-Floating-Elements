@@ -57,3 +57,9 @@ nav {
   text-decoration: #000000 underline;
 }
 
+.subscribe-now-button,
+.log-in-button {
+  position: relative;
+  top: 0.3rem;
+}
+
