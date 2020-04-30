@@ -18,3 +18,9 @@ body {
   padding: 0;
   background-color: #FFFFFF;
 }
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
