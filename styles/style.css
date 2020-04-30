@@ -74,3 +74,8 @@ nav {
   border-radius: 3px 3px 3px 3px;
 }
 
+.subscribe-now-button:hover,
+.log-in-button:hover {
+  background-color: rgb(68, 100, 122);;
+}
+
