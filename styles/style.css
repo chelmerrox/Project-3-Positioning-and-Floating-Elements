@@ -53,3 +53,7 @@ nav {
   font-weight: bold;
 }
 
+.space-and-cosmos-link:hover {
+  text-decoration: #000000 underline;
+}
+
