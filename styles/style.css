@@ -79,7 +79,8 @@ nav {
 }
 
 .subscribe-now-button:hover,
-.log-in-button:hover {
+.log-in-button:hover,
+.read-comments-button:hover {
   background-color: rgb(68, 100, 122);;
 }
 
