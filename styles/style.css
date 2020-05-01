@@ -157,3 +157,9 @@ h1 {
   font-size: 15px;
   line-height: 1.25rem;
 }
+
+.image-photographer-name {
+  color: #888888;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-size: 13px;
+}
