@@ -499,3 +499,7 @@ h1 {
   font-size: 12px;
   line-height: 20px;
 }
+
+.footer-1-links:hover {
+  text-decoration: #333333 underline;
+}
