@@ -144,7 +144,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1000px 1fr;
   grid-template-rows: repeat(6, auto);
-  margin-top: 130px;
+  margin-top: 80px;
 }
 
 /* Center all paragraphs within the main container */
