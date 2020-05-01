@@ -203,3 +203,8 @@ h1 {
   margin-top: 15px;
   margin-bottom: 25px;
 }
+
+.paragraph-links {
+  color: #326891;
+  text-decoration: #326891 underline;
+}
