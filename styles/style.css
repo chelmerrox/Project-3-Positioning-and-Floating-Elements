@@ -512,6 +512,15 @@ h1 {
   line-height: 20px;
 }
 
-.subscribe-links:hover {
+.subscribe-links-bottom {
+  color: #000000;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.subscribe-links:hover,
+.subscribe-links-bottom:hover {
   text-decoration: #000000 underline;
 }
