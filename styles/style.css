@@ -135,3 +135,12 @@ main {
 .paragraphs-container {
   margin: 0 227px;
 }
+
+/* Styles for the article 1 heading */
+h1 {
+  color: #121212;
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;  /* These are from the source page: */
+  font-weight: 550;
+  font-size: 30px;                                                  /* https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0 */
+  font-style: italic;
+}
