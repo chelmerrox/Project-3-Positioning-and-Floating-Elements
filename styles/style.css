@@ -1,3 +1,6 @@
+/* Some of the stylings are from the source page itself. These are for buttons, texts etc. */
+/* Source page reference: https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0 */
+
 *,
 *::before,
 *::after {
@@ -139,9 +142,9 @@ main {
 /* Styles for the article 1 heading */
 h1 {
   color: #121212;
-  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;  /* These are from the source page: */
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;  
   font-weight: 550;
-  font-size: 30px;                                                  /* https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0 */
+  font-size: 30px;                                                  
   font-style: italic;
   margin-bottom: 15px;
   margin-left: 190px;
