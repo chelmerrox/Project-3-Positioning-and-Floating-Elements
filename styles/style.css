@@ -171,6 +171,15 @@ h1 {
   font-size: 15px;
 }
 
+/* Styles for the names of the providers of inflation theory image*/
+.image-provider-name {
+  color: #333333;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
 /* Styles for date and social medi container */
 .date-and-social-media-container {
   display: flex;
