@@ -249,9 +249,15 @@ h1 {
   font-weight: 700;
 }
 
+/* Styles for the texts and links after the last paragraph of article 4 */
 .main-container-footer-texts {
   color: #666666;
   font-family: nyt-franklin,helvetica,arial,sans-serif;
   font-size: 12px;
   line-height: 20px;
+}
+
+.main-container-bottom-links {
+  color: #666666;
+  text-decoration: #666666 underline;
 }
