@@ -472,3 +472,10 @@ h1 {
   justify-content: space-between;
   margin-bottom: 15px;
 }
+
+.go-to-homepage-link {
+  color: #567B95;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  margin-top: 20px;
+}
