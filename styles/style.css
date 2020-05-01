@@ -248,3 +248,10 @@ h1 {
   color: #326891;
   font-weight: 700;
 }
+
+.main-container-footer-texts {
+  color: #666666;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+}
