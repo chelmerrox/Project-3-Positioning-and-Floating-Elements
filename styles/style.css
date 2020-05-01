@@ -218,6 +218,10 @@ h1 {
   text-decoration: #326891 underline;
 }
 
+.inflation-theory-container {
+  margin-bottom: 70px;
+}
+
 .thank-you-container {
   border-top: 0.05rem solid rgb(223, 218, 218);
   border-bottom: 0.05rem solid rgb(223, 218, 218);
