@@ -529,6 +529,11 @@ h1 {
   text-decoration: #000 underline;
 }
 
+.mobile-applications-link {
+  border-top: 0.09rem solid #c5c2c2;
+  padding-top: 4px;
+}
+
 .foreign-text {
   color: #c5c2c2;
   font-size: 11px;
