@@ -189,3 +189,9 @@ h1 {
   font-family: nyt-franklin,helvetica,arial,sans-serif;
   font-size: 13px;
 }
+
+.paragraph-styling {
+  color: #333333;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-size: 20px;
+}
