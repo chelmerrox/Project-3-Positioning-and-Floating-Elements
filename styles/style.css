@@ -511,3 +511,7 @@ h1 {
   font-weight: 700;
   line-height: 20px;
 }
+
+.subscribe-links:hover {
+  text-decoration: #000000 underline;
+}
