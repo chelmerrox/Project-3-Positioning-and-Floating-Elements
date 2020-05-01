@@ -177,3 +177,9 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
 }
+
+.top-social-media-container {
+  position: relative;
+  bottom: 0.9rem;
+  right: 20rem;
+}
