@@ -183,3 +183,9 @@ h1 {
   bottom: 0.9rem;
   right: 20rem;
 }
+
+.article-date {
+  color: #333333;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-size: 13px;
+}
