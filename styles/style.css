@@ -190,8 +190,16 @@ h1 {
   font-size: 13px;
 }
 
-.paragraph-styling {
+.paragraph-styling, 
+.sub-headings {
   color: #333333;
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
   font-size: 20px;
+}
+
+/* Styles for subheadings in articles 2 to 4*/
+.sub-headings {
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
