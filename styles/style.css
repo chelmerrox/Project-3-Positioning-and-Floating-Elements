@@ -432,3 +432,11 @@ h1 {
   font-size: 18px;
   line-height: 25px;
 }
+
+.dates {
+  color: #999999;
+  font-family: nyt cheltenham small,georgia, 'times new roman';
+  font-size: 12px;
+  line-height: 35px;
+}
+
