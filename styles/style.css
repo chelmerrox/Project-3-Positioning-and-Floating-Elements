@@ -479,3 +479,8 @@ h1 {
   font-size: 11px;
   margin-top: 20px;
 }
+
+.footer-1-top-links {
+  display: flex;
+  justify-content: space-between;
+}
