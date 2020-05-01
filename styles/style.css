@@ -267,3 +267,8 @@ h1 {
   justify-content: space-between;
   margin-top: 29px;
 }
+
+.bottom-social-media-icons-container {
+  position: relative;
+  right: 10rem;
+}
