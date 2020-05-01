@@ -484,3 +484,11 @@ h1 {
   display: flex;
   justify-content: space-between;
 }
+
+.footer-1-headings {
+  color: #333333;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 13px;
+ font-weight: 700; 
+  line-height: 30px;
+}
