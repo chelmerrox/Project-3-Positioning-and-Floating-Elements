@@ -440,3 +440,9 @@ h1 {
   line-height: 35px;
 }
 
+.editors-picks-container-top {
+  border-top: 0.05rem solid #000000;
+  margin-top: 1rem;
+  padding-top: 2rem;
+}
+
