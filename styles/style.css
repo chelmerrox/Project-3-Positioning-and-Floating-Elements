@@ -250,6 +250,11 @@ h1 {
   margin-bottom: 30px;
 }
 
+.thank-you-text-top {             
+  border-top: 0.05rem solid rgb(223, 218, 218);
+  width: 10rem;
+}
+
 .thank-you-text {
   color: #333;
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
