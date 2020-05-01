@@ -540,3 +540,20 @@ h1 {
   text-decoration: #c5c2c2 underline;
 }
 
+.footer-1-bottom-links {
+  margin-top: 10px;
+  margin-left: 70px;
+}
+
+.footer-1-links-2 {
+  color: #888787;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  line-height: 20px;
+  padding-left: 7px;
+}
+
+.footer-1-links-2:hover {
+  text-decoration: #888787 underline;
+}
+
