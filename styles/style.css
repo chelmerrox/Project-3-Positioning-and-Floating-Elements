@@ -344,3 +344,42 @@ h1 {
   font-size: 16px;
   margin-bottom: 30px;
 }
+
+/* The articles within the space and astronomy container */
+.space-and-astronomy-container-grid-item-1,
+.space-and-astronomy-container-grid-item-2,
+.space-and-astronomy-container-grid-item-3 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.space-and-astronomy-container-grid-item-4,
+.space-and-astronomy-container-grid-item-5,
+.space-and-astronomy-container-grid-item-6 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.space-and-astronomy-container-grid-item-1,
+.space-and-astronomy-container-grid-item-4 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.space-and-astronomy-container-grid-item-2,
+.space-and-astronomy-container-grid-item-5 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.space-and-astronomy-container-grid-item-3,
+.space-and-astronomy-container-grid-item-6 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.space-and-astronomy-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
