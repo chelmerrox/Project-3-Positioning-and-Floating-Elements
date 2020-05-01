@@ -1,4 +1,5 @@
 /* Some of the stylings are from the source page itself. These are for buttons, texts etc. and in terms of their color, font-size etc. */
+
 /* Source page reference: https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0 */
 
 *,
@@ -16,10 +17,10 @@ html {
 }
 
 body {
-  margin: 0 auto; /* margin and max-width properties (and their values) holds everything in place i.e it will make html elements*/
-  max-width:1440px; /* within them to stay within these boundaries especially when zooming in/out of a web browser */
+  margin: 0 auto; /* margin and max-width properties (and their values) holds everything in place i.e it will make html elements */
+  max-width: 1440px; /* within them to stay within these boundaries especially when zooming in/out of a web browser */
   padding: 0;
-  background-color: #FFFFFF;
+  background-color: #fff;
   position: relative;
   overflow-x: hidden;
 }
@@ -32,11 +33,11 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  position:fixed;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  background-color: #FFFFFF;
+  background-color: #fff;
   padding: 0.3rem;
   box-shadow: 0 3px 2px -2px rgb(214, 214, 214);
 }
@@ -49,16 +50,16 @@ nav {
   margin: 0 20px;
 }
 
-/* Styles for the SPACE & COSMOS text/link in the left-most part of navbar*/
+/* Styles for the SPACE & COSMOS text/link in the left-most part of navbar */
 .space-and-cosmos-link {
   position: relative;
   top: -0.35rem;
-  color: #000000;
+  color: #000;
   font-weight: bold;
 }
 
 .space-and-cosmos-link:hover {
-  text-decoration: #000000 underline;
+  text-decoration: #000 underline;
 }
 
 .navbar-right-container {
@@ -70,18 +71,28 @@ nav {
   position: relative;
   top: 0.3rem;
   padding: 0.5rem;
-  background-color: #567B95;
-  color: #FFFFFF;
+  background-color: #567b95;
+  color: #fff;
   font-size: 12px;
   font-weight: bold;
-  border: 1px solid #567B95;
+  border: 1px solid #567b95;
   border-radius: 3px 3px 3px 3px;
+}
+
+/* This button is in the last grid item container of the main container */
+.read-comments-button {
+  background-color: #567b95;
+  padding: 0.7rem 6.5rem;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #567b95;
+  border-radius: 2px 2px 2px 2px;
 }
 
 .subscribe-now-button:hover,
 .log-in-button:hover,
 .read-comments-button:hover {
-  background-color: rgb(68, 100, 122);;
+  background-color: rgb(68, 100, 122);
 }
 
 /* Main container (Grid container) items */
@@ -127,11 +138,12 @@ nav {
 }
 
 /* Main container (Grid container) */
+
 /* Styles for the main container. Grid applies here: 3 columns and 6 rows(4 articles + 1 small texts container + 1 bottom social media links container) */
 main {
   display: grid;
   grid-template-columns: 1fr 1000px 1fr;
-  grid-template-rows: repeat(6,auto);
+  grid-template-rows: repeat(6, auto);
   margin-top: 130px;
 }
 
@@ -143,39 +155,39 @@ main {
 /* Styles for the article 1 heading */
 h1 {
   color: #121212;
-  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;  
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-weight: 550;
-  font-size: 30px;                                                  
+  font-size: 30px;
   font-style: italic;
   margin-bottom: 15px;
   margin-left: 190px;
 }
 
-/* Styles for the image captions in Article 1 and Article 3*/
+/* Styles for the image captions in Article 1 and Article 3 */
 .image-captions {
-  color: #666666;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  color: #666;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 15px;
   line-height: 1.25rem;
 }
 
 .image-photographer-name {
-  color: #888888;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  color: #888;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 13px;
 }
 
 .main-article-author-name {
-  color: #000000;
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  color: #000;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
   font-size: 15px;
 }
 
-/* Styles for the names of the providers of inflation theory image*/
+/* Styles for the names of the providers of inflation theory image */
 .image-provider-name {
-  color: #333333;
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  color: #333;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 500;
   font-size: 14px;
   margin-top: 8px;
@@ -202,19 +214,19 @@ h1 {
 }
 
 .article-date {
-  color: #333333;
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  color: #333;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 13px;
 }
 
-.paragraph-styling, 
+.paragraph-styling,
 .sub-headings {
-  color: #333333;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  color: #333;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 20px;
 }
 
-/* Styles for subheadings in articles 2 to 4*/
+/* Styles for subheadings in articles 2 to 4 */
 .sub-headings {
   font-weight: 700;
   margin-top: 15px;
@@ -239,8 +251,8 @@ h1 {
 }
 
 .thank-you-text {
-  color: #333333;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  color: #333;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 15px;
   font-weight: 700;
 }
@@ -252,15 +264,15 @@ h1 {
 
 /* Styles for the texts and links after the last paragraph of article 4 */
 .main-container-footer-texts {
-  color: #666666;
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  color: #666;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 12px;
   line-height: 20px;
 }
 
 .main-container-bottom-links {
-  color: #666666;
-  text-decoration: #666666 underline;
+  color: #666;
+  text-decoration: #666 underline;
 }
 
 .read-comments-social-media-icons-container {
@@ -273,13 +285,4 @@ h1 {
   position: relative;
   top: 1rem;
   right: 9rem;
-}
-
-.read-comments-button {
-  background-color: #567B95;
-  padding: 0.7rem 6.5rem;
-  color: white;
-  font-weight: bold;
-  border: 1px solid #567B95;
-  border-radius: 2px 2px 2px 2px;
 }
