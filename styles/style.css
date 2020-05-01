@@ -457,5 +457,18 @@ h1 {
   padding-top: 15px;
   padding-bottom: 15px;
   margin-left: 2px;
-  
+}
+
+.footer-1 {
+ margin-top: 10px;
+ margin-left: 30px;
+ margin-right: 30px;
+ padding-top: 10px;
+ border-top: 0.1rem solid #e9e5e5
+}
+
+.logo-and-go-to-homepage-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
 }
