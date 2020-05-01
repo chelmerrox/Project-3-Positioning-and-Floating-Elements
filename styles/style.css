@@ -163,3 +163,10 @@ h1 {
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
   font-size: 13px;
 }
+
+.main-article-author-name {
+  color: #000000;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
