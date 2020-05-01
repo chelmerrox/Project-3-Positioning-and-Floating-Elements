@@ -170,3 +170,10 @@ h1 {
   font-weight: 700;
   font-size: 15px;
 }
+
+/* Styles for date and social medi container */
+.date-and-social-media-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
