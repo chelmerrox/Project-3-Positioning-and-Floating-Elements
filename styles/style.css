@@ -412,3 +412,9 @@ h1 {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
 }
+
+.recommended-articles-author {
+  color: #999999;
+  font-family: nyt cheltenham small,georgia, 'times new roman';
+  font-size: 10px;
+}
