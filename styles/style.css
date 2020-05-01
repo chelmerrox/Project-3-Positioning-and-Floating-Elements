@@ -143,4 +143,6 @@ h1 {
   font-weight: 550;
   font-size: 30px;                                                  /* https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0 */
   font-style: italic;
+  margin-bottom: 15px;
+  margin-left: 190px;
 }
