@@ -270,7 +270,8 @@ h1 {
 
 .bottom-social-media-icons-container {
   position: relative;
-  right: 10rem;
+  top: 1rem;
+  right: 9rem;
 }
 
 .read-comments-button {
