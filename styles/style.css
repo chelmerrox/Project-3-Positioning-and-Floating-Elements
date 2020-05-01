@@ -336,3 +336,11 @@ h1 {
   margin-left: 30px;
   margin-right: 20px;
 }
+
+.recommended-articles-headings {
+  color: #000000;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
