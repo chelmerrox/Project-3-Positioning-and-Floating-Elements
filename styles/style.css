@@ -462,8 +462,7 @@ h1 {
   font-family: nyt cheltenham small, georgia, 'times new roman';
   font-size: 17px;
   line-height: 25px;
-  border-top: 0.05rem solid #d3d3d3;
-  border-bottom: 0.05rem solid #d3d3d3;
+  border-top: 0.02px solid #d3d3d3;
   padding-top: 15px;
   padding-bottom: 15px;
   margin-left: 2px;
