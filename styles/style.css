@@ -307,3 +307,32 @@ h1 {
   top: 1rem;
   right: 9rem;
 }
+
+/* Recommended articles container styling*/
+
+/*More astronomy articles container*/
+.recommended-articles-grid-item-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+/*Aside container*/
+.recommended-articles-grid-item-2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.recommended-articles-grid-item-1,
+.recommended-articles-grid-item-2 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.recommended-articles-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
