@@ -413,6 +413,17 @@ h1 {
   grid-template-rows: 1fr;
 }
 
+.space-and-astronomy-border-top {
+  border-top: 0.02rem solid #000000;
+  padding-bottom: 10px;
+  width: 900px;
+} 
+
+.more-popular-border-top {
+  border-top: 0.02rem solid #000000;
+  padding-bottom: 10px;
+} 
+
 .recommended-articles-author {
   color: #999;
   font-family: nyt cheltenham small, georgia, 'times new roman';
