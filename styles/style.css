@@ -469,7 +469,10 @@ h1 {
 .logo-and-go-to-homepage-container {
   display: flex;
   justify-content: space-between;
+  margin-top: -7px;
   margin-bottom: 15px;
+  border-top: 0.05rem solid #e9e5e5;
+  padding-top: 8px;
 }
 
 .go-to-homepage-link {
