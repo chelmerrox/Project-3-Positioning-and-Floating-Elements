@@ -492,3 +492,10 @@ h1 {
  font-weight: 700; 
   line-height: 30px;
 }
+
+.footer-1-links {
+  color: #333333;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+}
