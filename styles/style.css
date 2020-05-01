@@ -503,3 +503,11 @@ h1 {
 .footer-1-links:hover {
   text-decoration: #333333 underline;
 }
+
+.subscribe-links {
+  color: #000000;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+}
