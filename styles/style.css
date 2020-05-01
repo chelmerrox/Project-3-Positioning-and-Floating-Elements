@@ -261,6 +261,7 @@ h1 {
 .subscribe-text {
   color: #326891;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 /* Styles for the texts and links after the last paragraph of article 4 */
