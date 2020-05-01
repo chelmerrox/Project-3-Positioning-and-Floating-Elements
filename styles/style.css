@@ -424,3 +424,11 @@ h1 {
   position: relative;
   left: 150px;
 }
+
+/* Recommended artciles headings styles */
+.headings {
+  color: #121212;
+  font-family: nyt cheltenham small,georgia, 'times new roman';
+  font-size: 18px;
+  line-height: 25px;
+}
