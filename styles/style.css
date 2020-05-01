@@ -261,3 +261,9 @@ h1 {
   color: #666666;
   text-decoration: #666666 underline;
 }
+
+.read-comments-social-media-icons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 29px;
+}
