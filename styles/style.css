@@ -524,3 +524,14 @@ h1 {
 .subscribe-links-bottom:hover {
   text-decoration: #000000 underline;
 }
+
+.foreign-text {
+  color: #c5c2c2;
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.foreign-text:hover {
+  text-decoration: #c5c2c2 underline;
+}
+
