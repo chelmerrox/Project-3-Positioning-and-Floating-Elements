@@ -535,13 +535,13 @@ h1 {
 }
 
 .foreign-text {
-  color: #c5c2c2;
+  color: #000000;
   font-size: 11px;
   line-height: 20px;
 }
 
 .foreign-text:hover {
-  text-decoration: #c5c2c2 underline;
+  text-decoration: #000000 underline;
 }
 
 .footer-1-bottom-links {
