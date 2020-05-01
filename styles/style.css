@@ -146,3 +146,11 @@ h1 {
   margin-bottom: 15px;
   margin-left: 190px;
 }
+
+/* Styles for the image captions in Article 1 and Article 3*/
+.image-captions {
+  color: #666666;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-size: 15px;
+  line-height: 1.25rem;
+}
