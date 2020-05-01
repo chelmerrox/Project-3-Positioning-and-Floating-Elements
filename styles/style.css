@@ -383,3 +383,32 @@ h1 {
   grid-template-rows: repeat(2, 1fr);
 }
 
+
+/* Editor's picks container styles*/
+.editors-picks-container-grid-item-1 {
+  grid-column-start:1;
+  grid-column-end: 2;
+}
+
+.editors-picks-container-grid-item-2 {
+  grid-column-start:2;
+  grid-column-end: 3;
+}
+
+.editors-picks-container-grid-item-3 {
+  grid-column-start:3;
+  grid-column-end: 4;
+}
+
+.editors-picks-container-grid-item-1,
+.editors-picks-container-grid-item-2,
+.editors-picks-container-grid-item-3 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.editors-picks-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+}
