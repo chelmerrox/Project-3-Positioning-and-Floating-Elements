@@ -216,3 +216,9 @@ h1 {
   padding-top: 16px;
   padding-bottom: 16px;
 }
+
+.thank-you-text {
+  color: #333333;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-size: 15px;
+}
