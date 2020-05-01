@@ -418,3 +418,9 @@ h1 {
   font-family: nyt cheltenham small,georgia, 'times new roman';
   font-size: 10px;
 }
+
+/* Move author's names to the right */
+.authors-names {
+  position: relative;
+  left: 150px;
+}
