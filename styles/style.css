@@ -504,6 +504,11 @@ h1 {
   text-decoration: #333333 underline;
 }
 
+.subscribe-column {
+  border-left: 0.09rem solid #c5c2c2;
+  padding-left: 14px;
+}
+
 .subscribe-links {
   color: #000000;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
