@@ -383,7 +383,6 @@ h1 {
   grid-template-rows: repeat(2, 1fr);
 }
 
-
 /* Editor's picks container styles */
 .editors-picks-container-grid-item-1 {
   grid-column-start: 1;
@@ -414,19 +413,19 @@ h1 {
 }
 
 .space-and-astronomy-border-top {
-  border-top: 0.02rem solid #000000;
+  border-top: 0.02rem solid #000;
   padding-bottom: 10px;
   width: 900px;
-} 
+}
 
 .more-popular-border-top {
-  border-top: 0.02rem solid #000000;
+  border-top: 0.02rem solid #000;
   padding-bottom: 10px;
-} 
+}
 
 .recommended-articles-author {
   color: #999;
-  font-family: nyt cheltenham small, georgia, 'times new roman';
+  font-family: 'times new roman', Arial, Helvetica, sans-serif;
   font-size: 10px;
 }
 
@@ -436,17 +435,17 @@ h1 {
   left: 150px;
 }
 
-/* Recommended artciles headings styles */
+/* Recommended articles headings styles */
 .headings {
   color: #121212;
-  font-family: nyt cheltenham small, georgia, 'times new roman';
+  font-family: georgia, 'times new roman', Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 25px;
 }
 
 .dates {
   color: #999;
-  font-family: nyt cheltenham small, georgia, 'times new roman';
+  font-family: georgia, 'times new roman', Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 35px;
 }
@@ -459,7 +458,7 @@ h1 {
 
 .aside-bar-headings {
   color: #121212;
-  font-family: nyt cheltenham small, georgia, 'times new roman';
+  font-family: georgia, 'times new roman', Arial, Helvetica, sans-serif;
   font-size: 17px;
   line-height: 25px;
   border-top: 0.02px solid #d3d3d3;
@@ -547,13 +546,13 @@ h1 {
 }
 
 .foreign-text {
-  color: #000000;
+  color: #000;
   font-size: 11px;
   line-height: 20px;
 }
 
 .foreign-text:hover {
-  text-decoration: #000000 underline;
+  text-decoration: #000 underline;
 }
 
 .footer-1-bottom-links {
