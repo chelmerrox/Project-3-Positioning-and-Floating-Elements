@@ -222,6 +222,12 @@ h1 {
   border-radius: 11px 11px 11px 11px;
 }
 
+.social-media-icons:hover,
+.bookmark-icon:hover {
+  background-color: #fff;
+  border: 0.05rem solid #eeeeee;
+}
+
 .article-date {
   color: #333;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
