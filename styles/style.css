@@ -215,7 +215,7 @@ h1 {
 }
 
 .social-media-icons {
-  background-color: #eeeeee;
+  background-color: #eee;
   padding: 0.3rem;
   width: 25px;
   height: 24px;
@@ -237,7 +237,7 @@ h1 {
 .social-media-icons:hover,
 .bookmark-icon:hover {
   background-color: #fff;
-  border: 0.05rem solid #eeeeee;
+  border: 0.05rem solid #eee;
 }
 
 .article-date {
