@@ -436,7 +436,7 @@ h1 {
 
 /* Recommended articles headings styles */
 
-/*Font family for texts in recommnended article container */
+/* Font family for texts in recommnended article container */
 .recommended-articles-author,
 .headings,
 .dates,
@@ -489,9 +489,19 @@ h1 {
   padding-top: 8px;
 }
 
+/* Font family for footer 1 and footer 2 container texts */
+.go-to-homepage-link,
+.footer-1-headings,
+.footer-1-links,
+.subscribe-links,
+.subscribe-links-bottom,
+.footer-1-links-2,
+.footer-2-text {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
 .go-to-homepage-link {
   color: #567b95;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 11px;
   margin-top: 10px;
 }
@@ -503,7 +513,6 @@ h1 {
 
 .footer-1-headings {
   color: #333;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 13px;
   font-weight: 700;
   line-height: 30px;
@@ -511,7 +520,6 @@ h1 {
 
 .footer-1-links {
   color: #333;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 12px;
   line-height: 20px;
 }
@@ -527,7 +535,6 @@ h1 {
 
 .subscribe-links {
   color: #000;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 13px;
   font-weight: 700;
   line-height: 20px;
@@ -535,7 +542,6 @@ h1 {
 
 .subscribe-links-bottom {
   color: #000;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 10px;
   line-height: 20px;
 }
@@ -568,7 +574,6 @@ h1 {
 
 .footer-1-links-2 {
   color: #888787;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 11px;
   line-height: 20px;
   padding-left: 7px;
@@ -591,7 +596,6 @@ h1 {
 .footer-2-text {
   text-align: center;
   color: #333;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 15px;
   margin-bottom: -1rem;
 }
