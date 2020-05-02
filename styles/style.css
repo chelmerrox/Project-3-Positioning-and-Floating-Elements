@@ -214,6 +214,14 @@ h1 {
   margin-right: 5px;
 }
 
+.social-media-icons {
+  background-color: #eeeeee;
+  padding: 0.3rem;
+  width: 25px;
+  height: 24px;
+  border-radius: 11px 11px 11px 11px;
+}
+
 .article-date {
   color: #333;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
