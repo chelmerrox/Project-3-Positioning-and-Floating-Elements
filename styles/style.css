@@ -425,7 +425,6 @@ h1 {
 
 .recommended-articles-author {
   color: #999;
-  font-family: 'times new roman', Arial, Helvetica, sans-serif;
   font-size: 10px;
 }
 
@@ -436,16 +435,23 @@ h1 {
 }
 
 /* Recommended articles headings styles */
+
+/*Font family for texts in recommnended article container */
+.recommended-articles-author,
+.headings,
+.dates,
+.aside-bar-headings {
+  font-family: georgia, 'times new roman', Arial, Helvetica, sans-serif;
+}
+
 .headings {
   color: #121212;
-  font-family: georgia, 'times new roman', Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 25px;
 }
 
 .dates {
   color: #999;
-  font-family: georgia, 'times new roman', Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 35px;
 }
@@ -458,7 +464,6 @@ h1 {
 
 .aside-bar-headings {
   color: #121212;
-  font-family: georgia, 'times new roman', Arial, Helvetica, sans-serif;
   font-size: 17px;
   line-height: 25px;
   border-top: 0.02px solid #d3d3d3;
