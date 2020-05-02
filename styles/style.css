@@ -222,6 +222,11 @@ h1 {
   border-radius: 11px 11px 11px 11px;
 }
 
+.bubble-icon {
+  color: #cccbcb;
+  padding: 0.47rem;
+}
+
 .social-media-icons:hover,
 .bookmark-icon:hover {
   background-color: #fff;
