@@ -227,6 +227,13 @@ h1 {
   padding: 0.47rem;
 }
 
+.number-of-comments {
+  position: relative;
+  right: 34.2px;
+  bottom: 9px;
+  font-size: 10.2px;
+}
+
 .social-media-icons:hover,
 .bookmark-icon:hover {
   background-color: #fff;
