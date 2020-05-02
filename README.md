@@ -4,6 +4,19 @@ This is an assigned project where I had to replicate/clone the <a href="https://
 
 ## Preview of web page
 
+### Top of web page
+
+![screenshot](images/top_preview.PNG)
+
+
+### Middle of web page
+
+![screenshot](/images/middle_preview.PNG)
+
+
+### Bottom of web page
+
+![screenshot](images/bottom_preview.PNG)
 
 ## Built With
 
