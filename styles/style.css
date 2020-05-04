@@ -476,6 +476,10 @@ h1 {
   line-height: 25px;
 }
 
+.headings:hover {
+  color: #797676;
+}
+
 .dates {
   color: #999;
   font-size: 12px;
