@@ -276,6 +276,13 @@ h1 {
   font-weight: 600;
 }
 
+.theory-of-inflation-top-texts {
+  color: #666666;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+
 .thank-you-container {
   text-align: center;
   padding-top: 16px;
