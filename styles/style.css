@@ -276,6 +276,61 @@ h1 {
   font-weight: 600;
 }
 
+/* Theory of inflation container grid layout */
+
+.theory-of-inflation-grid-item-1,
+.theory-of-inflation-grid-item-5 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.theory-of-inflation-grid-item-2,
+.theory-of-inflation-grid-item-6 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.theory-of-inflation-grid-item-3,
+.theory-of-inflation-grid-item-7 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.theory-of-inflation-grid-item-4,
+.theory-of-inflation-grid-item-8 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.theory-of-inflation-grid-item-1,
+.theory-of-inflation-grid-item-2,
+.theory-of-inflation-grid-item-3,
+.theory-of-inflation-grid-item-4 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.theory-of-inflation-grid-item-5,
+.theory-of-inflation-grid-item-6,
+.theory-of-inflation-grid-item-7,
+.theory-of-inflation-grid-item-7 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.theory-of-inflation-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  margin-top: 20px;
+}
+
+
+
+
+
 .theory-of-inflation-top-texts {
   color: #666666;
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
