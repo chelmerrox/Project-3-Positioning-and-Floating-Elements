@@ -635,6 +635,7 @@ h1 {
 }
 
 .expand-container {
+  float: right;
   color: #333;
   font-weight: 700;
   margin-bottom: 5px;
