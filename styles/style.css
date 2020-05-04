@@ -501,7 +501,8 @@ h1 {
   line-height: 25px;
 }
 
-.headings:hover {
+.headings:hover,
+.headings-2:hover {
   color: #797676;
 }
 
