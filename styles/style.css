@@ -466,7 +466,7 @@ h1 {
 .recommended-articles-author,
 .headings,
 .dates,
-.aside-bar-headings {
+.aside-bar-2-headings {
   font-family: georgia, 'times new roman', Arial, Helvetica, sans-serif;
 }
 
@@ -492,7 +492,7 @@ h1 {
   padding-top: 2rem;
 }
 
-.aside-bar-headings {
+.aside-bar-2-headings {
   color: #121212;
   font-size: 17px;
   line-height: 25px;
