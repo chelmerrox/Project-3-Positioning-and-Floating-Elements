@@ -206,6 +206,7 @@ h1 {
   position: relative;
   bottom: 0.9rem;
   right: 8rem;
+  z-index: 1;
 }
 
 /* Add margin-left and margin-right to each social media icon in top-social-media-container and bottom-social-media-container */
