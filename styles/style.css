@@ -37,6 +37,7 @@ nav {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 2;
   background-color: #fff;
   padding: 0.3rem;
   box-shadow: 0 3px 2px -2px rgb(214, 214, 214);
