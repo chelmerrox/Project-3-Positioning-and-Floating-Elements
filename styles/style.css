@@ -314,7 +314,7 @@ h1 {
 .theory-of-inflation-grid-item-5,
 .theory-of-inflation-grid-item-6,
 .theory-of-inflation-grid-item-7,
-.theory-of-inflation-grid-item-7 {
+.theory-of-inflation-grid-item-8 {
   grid-row-start: 2;
   grid-row-end: 3;
 }
@@ -329,7 +329,7 @@ h1 {
 }
 
 .theory-of-inflation-top-texts {
-  color: #666666;
+  color: #666;
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 14px;
   line-height: 1.5rem;
@@ -349,7 +349,7 @@ h1 {
 }
 
 .image-photographer-name-border-top {
-  border-top: 0.05rem solid #000000;
+  border-top: 0.05rem solid #000;
   width: 4rem;
   margin-bottom: 1.5rem;
 }
