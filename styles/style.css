@@ -1,15 +1,740 @@
+/* Some of the stylings are from the source page itself. These are for buttons, texts etc. and in terms of their color, font-size etc. */
+
+/* Source page reference: https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0 */
+
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;  
-  -moz-box-sizing: border-box;    
-  -ms-box-sizing: border-box;   
-  box-sizing: border-box;       
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html,
-body {
+html {
   margin: 0;
   padding: 0;
-  background-color: white;
+}
+
+body {
+  margin: 0 auto; /* margin and max-width properties (and their values) holds everything in place i.e it will make html elements */
+  max-width: 1440px; /* within them to stay within these boundaries especially when zooming in/out of a web browser */
+  padding: 0;
+  background-color: #fff;
+  position: relative;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background-color: #fff;
+  padding: 0.3rem;
+  box-shadow: 0 3px 2px -2px rgb(214, 214, 214);
+}
+
+.navbar-left-container {
+  margin-left: 25px;
+}
+
+.search-icon {
+  margin: 0 20px;
+}
+
+/* Styles for the SPACE & COSMOS text/link in the left-most part of navbar */
+.space-and-cosmos-link {
+  position: relative;
+  top: -0.35rem;
+  color: #000;
+  font-weight: bold;
+}
+
+.space-and-cosmos-link:hover {
+  text-decoration: #000 underline;
+}
+
+.navbar-right-container {
+  margin-right: 10px;
+}
+
+.subscribe-now-button,
+.log-in-button {
+  position: relative;
+  top: 0.3rem;
+  padding: 0.5rem;
+  background-color: #567b95;
+  color: #fff;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  border: 1px solid #567b95;
+  border-radius: 3px 3px 3px 3px;
+}
+
+/* This button is in the last grid item container of the main container */
+.read-comments-button {
+  background-color: #567b95;
+  padding: 0.7rem 6.5rem;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #567b95;
+  border-radius: 2px 2px 2px 2px;
+}
+
+.subscribe-now-button:hover,
+.log-in-button:hover,
+.read-comments-button:hover {
+  background-color: rgb(68, 100, 122);
+}
+
+/* Main container (Grid container) items */
+.article-1-grid-item {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.article-2-grid-item {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.article-3-grid-item {
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.article-4-grid-item {
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.main-container-bottom-links-grid-item {
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.bottom-social-media-container-grid-item {
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+/* The column lines where the main container grid items start and end */
+.article-1-grid-item,
+.article-2-grid-item,
+.article-3-grid-item,
+.article-4-grid-item,
+.main-container-bottom-links-grid-item,
+.bottom-social-media-container-grid-item {
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+
+/* Main container (Grid container) */
+
+/* Styles for the main container. Grid applies here: 3 columns and 6 rows(4 articles + 1 small texts container + 1 bottom social media links container) */
+main {
+  display: grid;
+  grid-template-columns: 1fr 1000px 1fr;
+  grid-template-rows: repeat(6, auto);
+  margin-top: 80px;
+}
+
+/* Center all paragraphs within the main container */
+.paragraphs-container {
+  margin: 0 227px;
+}
+
+/* Styles for the article 1 heading */
+h1 {
+  color: #121212;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-weight: 550;
+  font-size: 30px;
+  font-style: italic;
+  margin-bottom: 15px;
+  margin-left: 190px;
+}
+
+/* Styles for the image captions in Article 1 and Article 3 */
+.image-captions {
+  color: #666;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 15px;
+  line-height: 1.25rem;
+}
+
+.image-photographer-name {
+  color: #888;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 13px;
+}
+
+.main-article-author-name {
+  color: #000;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+/* Styles for the names of the providers of inflation theory image */
+.image-provider-name {
+  color: #333;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+/* Styles for date and social media container */
+.date-and-social-media-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top-social-media-container {
+  position: relative;
+  bottom: 0.9rem;
+  right: 8rem;
+  z-index: 1;
+}
+
+/* Add margin-left and margin-right to each social media icon in top-social-media-container and bottom-social-media-container */
+.top-social-media-icons,
+.bottom-social-media-icons {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.social-media-icons {
+  background-color: #eee;
+  padding: 0.3rem;
+  width: 25px;
+  height: 24px;
+  border-radius: 11px 11px 11px 11px;
+}
+
+.bubble-icon {
+  color: #cccbcb;
+  padding: 0.47rem;
+}
+
+.number-of-comments {
+  position: relative;
+  right: 34.2px;
+  bottom: 9px;
+  font-size: 10.2px;
+}
+
+.social-media-icons:hover,
+.bookmark-icon:hover {
+  background-color: #fff;
+  border: 0.05rem solid #eee;
+}
+
+.article-date {
+  color: #333;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 13px;
+}
+
+.paragraph-styling,
+.sub-headings {
+  color: #333;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 20px;
+}
+
+/* Styles for subheadings in articles 2 to 4 */
+.sub-headings {
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.paragraph-links {
+  color: #326891;
+  text-decoration: #326891 underline;
+}
+
+.inflation-theory-container {
+  margin-top: 40px;
+  margin-bottom: 70px;
+  margin-right: 50px;
+  width: 88%;
+}
+
+.theory-of-inflation-heading {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* Theory of inflation container grid layout */
+
+.theory-of-inflation-grid-item-1,
+.theory-of-inflation-grid-item-5 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.theory-of-inflation-grid-item-2,
+.theory-of-inflation-grid-item-6 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.theory-of-inflation-grid-item-3,
+.theory-of-inflation-grid-item-7 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.theory-of-inflation-grid-item-4,
+.theory-of-inflation-grid-item-8 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.theory-of-inflation-grid-item-1,
+.theory-of-inflation-grid-item-2,
+.theory-of-inflation-grid-item-3,
+.theory-of-inflation-grid-item-4 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.theory-of-inflation-grid-item-5,
+.theory-of-inflation-grid-item-6,
+.theory-of-inflation-grid-item-7,
+.theory-of-inflation-grid-item-8 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.theory-of-inflation-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 20px;
+  margin-top: 20px;
+}
+
+.theory-of-inflation-top-texts {
+  color: #666;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+
+.inflation-theory-headings {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.theory-of-inflation-paragraphs {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5rem;
+  opacity: 0.6;
+}
+
+.image-photographer-name-border-top {
+  border-top: 0.05rem solid #000;
+  width: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.thank-you-container {
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  right: 3.3rem;
+}
+
+.thank-you-text-top {
+  border-top: 0.05rem solid rgb(223, 218, 218);
+  width: 5rem;
+  position: absolute;
+  left: 18rem;
+}
+
+.thank-you-text {
+  color: #333;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.subscribe-text {
+  color: #326891;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.subscribe-text-bottom {
+  border-bottom: 0.05rem solid rgb(223, 218, 218);
+  width: 5rem;
+  position: absolute;
+  left: 18rem;
+}
+
+/* Styles for the texts and links after the last paragraph of article 4 */
+.main-container-footer-texts {
+  color: #666;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.main-container-bottom-links {
+  color: #666;
+  text-decoration: #666 underline;
+}
+
+.read-comments-social-media-icons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 29px;
+}
+
+.bottom-social-media-icons-container {
+  position: relative;
+  top: 1rem;
+  right: 9rem;
+}
+
+/* Recommended articles container styling */
+
+/* More astronomy articles container */
+.recommended-articles-grid-item-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+/* Aside container */
+.recommended-articles-grid-item-2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.recommended-articles-grid-item-1,
+.recommended-articles-grid-item-2 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.recommended-articles-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.recommended-articles-headings {
+  color: #000;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+/* The articles within the space and astronomy container */
+.space-and-astronomy-container-grid-item-1,
+.space-and-astronomy-container-grid-item-2,
+.space-and-astronomy-container-grid-item-3 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.space-and-astronomy-container-grid-item-4,
+.space-and-astronomy-container-grid-item-5,
+.space-and-astronomy-container-grid-item-6 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.space-and-astronomy-container-grid-item-1,
+.space-and-astronomy-container-grid-item-4 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.space-and-astronomy-container-grid-item-2,
+.space-and-astronomy-container-grid-item-5 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.space-and-astronomy-container-grid-item-3,
+.space-and-astronomy-container-grid-item-6 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.space-and-astronomy-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+/* Editor's picks container styles */
+.editors-picks-container-grid-item-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.editors-picks-container-grid-item-2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.editors-picks-container-grid-item-3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.editors-picks-container-grid-item-1,
+.editors-picks-container-grid-item-2,
+.editors-picks-container-grid-item-3 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.editors-picks-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.space-and-astronomy-container-grid-items,
+.editors-picks-container-grid-items {
+  width: 91%;
+}
+
+.space-and-astronomy-border-top {
+  border-top: 0.02rem solid #000;
+  padding-bottom: 10px;
+  width: 900px;
+}
+
+.more-popular-border-top {
+  border-top: 0.02rem solid #000;
+  padding-bottom: 10px;
+}
+
+.recommended-articles-author {
+  color: #999;
+  font-size: 10px;
+}
+
+/* Move author's names to the right */
+.authors-names {
+  position: relative;
+  left: 150px;
+}
+
+/* Recommended articles headings styles */
+
+/* Font family for texts in recommnended article container */
+.recommended-articles-author,
+.headings,
+.dates,
+.aside-bar-2-headings {
+  font-family: georgia, 'times new roman', Arial, Helvetica, sans-serif;
+}
+
+.headings {
+  color: #121212;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.dates {
+  color: #999;
+  font-size: 12px;
+  line-height: 35px;
+}
+
+.editors-picks-container-top {
+  border-top: 0.05rem solid #000;
+  margin-top: 1rem;
+  padding-top: 2rem;
+}
+
+.aside-bar-2-headings {
+  border-top: 0.02px solid #d3d3d3;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 2px;
+}
+
+.headings-2 {
+  color: #121212;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.headings:hover,
+.headings-2:hover {
+  color: #797676;
+}
+
+.footer-1 {
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 10px;
+  border-top: 0.1rem solid #e9e5e5;
+}
+
+.logo-and-go-to-homepage-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -7px;
+  margin-bottom: 15px;
+  border-top: 0.05rem solid #e9e5e5;
+  padding-top: 8px;
+}
+
+/* Font family for footer 1 and footer 2 container texts */
+.go-to-homepage-link,
+.footer-1-headings,
+.footer-1-links,
+.subscribe-links,
+.subscribe-links-bottom,
+.footer-1-links-2,
+.footer-2-text {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.go-to-homepage-link {
+  color: #567b95;
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.footer-1-top-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-1-headings {
+  color: #333;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.footer-1-links {
+  color: #333;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.footer-1-links:hover {
+  text-decoration: #333 underline;
+}
+
+.subscribe-column {
+  border-left: 0.09rem solid #c5c2c2;
+  padding-left: 14px;
+}
+
+.subscribe-links {
+  color: #000;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.subscribe-links-bottom {
+  color: #000;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.subscribe-links:hover,
+.subscribe-links-bottom:hover {
+  text-decoration: #000 underline;
+}
+
+.mobile-applications-link {
+  border-top: 0.09rem solid #c5c2c2;
+  padding-top: 4px;
+}
+
+.foreign-text {
+  color: #000;
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.foreign-text:hover {
+  text-decoration: #000 underline;
+}
+
+.footer-1-bottom-links {
+  margin-top: 10px;
+  margin-left: 70px;
+  margin-bottom: 80px;
+}
+
+.footer-1-links-2 {
+  color: #888787;
+  font-size: 11px;
+  line-height: 20px;
+  padding-left: 7px;
+}
+
+.footer-1-links-2:hover {
+  text-decoration: #888787 underline;
+}
+
+.footer-2 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 0.6rem 0.3rem 0.01rem 0.3rem;
+  box-shadow: 0 -1px 3px 0 rgb(189, 186, 186);
+}
+
+.footer-2-text {
+  text-align: center;
+  color: #333;
+  font-size: 15px;
+  margin-bottom: -1rem;
+}
+
+.expand-container {
+  float: right;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-right: 40px;
+}
+
+.expand-icon {
+  position: relative;
+  left: 70px;
+  bottom: 18px;
 }
