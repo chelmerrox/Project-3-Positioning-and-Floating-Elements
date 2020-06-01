@@ -48,10 +48,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- My Stand-Up Team
+- Microverse TSE's
+- <a href="https://github.com/BrittanyBlake">My mentor</a>
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](LICENSE.txt) licensed.
