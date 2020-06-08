@@ -11,7 +11,7 @@ This is an assigned project where I had to replicate/clone the <a href="https://
 
 ### Middle of web page
 
-![screenshot](/images/middle_preview.PNG)
+![screenshot](images/middle_preview.PNG)
 
 
 ### Bottom of web page
